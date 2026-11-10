@@ -1,31 +1,46 @@
 # Spring Boot & Spring Web Initializr Lab Programs — Programs 1 to 7
 
-> Complete educational reference suite containing Spring Boot laboratory applications, dependency configurations, Spring Initializr setups, and executable zip archives.
+> The definitive educational reference suite containing Spring Boot enterprise web applications, dependency configurations, Spring Initializr setups, and executable zip archives for Programs 1 through 7.
+
+[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F.svg)](https://spring.io/projects/spring-boot)
+[![Maven](https://img.shields.io/badge/Maven-3.x-C71A36.svg)](https://maven.apache.org/)
 
 ---
 
-## 1. Project Title
-**Spring Boot Lab Programs** (`Lab-programs`) — Enterprise Spring Boot Educational Code Suite.
+## Curriculum Overview
 
-## 2. Project Overview
 This repository serves as the definitive reference suite for enterprise Java and Spring Boot academic laboratory coursework. It provides guided setups for Spring Initializr, project dependencies, and downloadable archives for Programs 1 through 7.
 
-## 3. Curriculum Coverage
-- **Program 1:** Spring Boot Application Bootstrap, Maven dependencies, and Hello World Controller.
-- **Program 2:** Spring MVC Model-View-Controller request routing and parameter handling.
-- **Program 3:** Form data binding, DTO validation, and Thymeleaf rendering.
-- **Program 4:** RESTful API Controller design with `@RestController` and JSON response payloads.
-- **Program 5:** Spring Data JPA entity modeling and repository interfaces.
-- **Program 6:** Database CRUD operations with MySQL / H2 in-memory databases.
-- **Program 7:** Dependency Injection, IoC container bean lifecycles, and component scanning.
+---
 
-## 4. Technology Stack
-- **Language:** Java 17
-- **Framework:** Spring Boot 3.x, Spring Web, Spring Data JPA
-- **Build Tool:** Apache Maven
-- **Portal:** HTML5, CSS3
+## Syllabus & Program Breakdown
 
-## 5. Author & Project Information
+- **Program 1 (`Programs/program1.zip`):** Spring Boot Application Bootstrap, Maven dependency management, and REST Controller fundamentals.
+- **Program 2 (`Programs/program2.zip`):** Spring MVC Model-View-Controller request routing and HTTP query parameter handling.
+- **Program 3 (`Programs/program3.zip`):** Form data binding, DTO validation annotations, and Thymeleaf template rendering.
+- **Program 4 (`Programs/progrm4.zip`):** RESTful Web Service Controller design with `@RestController` and JSON response payloads.
+- **Program 5 (`Programs/progrm5.zip`):** Spring Data JPA entity modeling, object-relational mapping, and repository interfaces.
+- **Program 6 (`Programs/progrm6.zip`):** Database CRUD operations with MySQL and in-memory H2 databases.
+- **Program 7 (`Programs/progrm7.zip`):** Dependency Injection, Inversion of Control (IoC) bean lifecycles, and component scanning.
+
+---
+
+## Execution Instructions
+
+Open `index.html` in any web browser to view the curriculum guide, or download individual project zip archives from `Programs/` and run using Maven:
+
+```bash
+unzip program1.zip
+cd program1
+./mvnw spring-boot:run
+```
+
+---
+
+## Contributor Attribution & Profile
+
 - **Curator:** Chethan Kumar B S (`StratagemVX`)
-- **Institution:** MVJ College of Engineering
-- **Department:** Computer Science & Engineering
+- **Institution:** Department of Computer Science & Engineering, MVJ College of Engineering
+- **GitHub:** [https://github.com/StratagemVX](https://github.com/StratagemVX)
+- **Portfolio:** [https://chethan-kumar-portfolio.vercel.app/](https://chethan-kumar-portfolio.vercel.app/)
