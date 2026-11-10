@@ -44,3 +44,19 @@ cd program1
 - **Institution:** Department of Computer Science & Engineering, MVJ College of Engineering
 - **GitHub:** [https://github.com/StratagemVX](https://github.com/StratagemVX)
 - **Portfolio:** [https://chethan-kumar-portfolio.vercel.app/](https://chethan-kumar-portfolio.vercel.app/)
+
+## Verification and maintenance
+
+Keep the overview, setup instructions, feature claims, and architecture aligned with the current source and dependency manifests.
+
+### Build and test commands
+
+No root package manifest was available during this pass. Consult the actual dependency manifest and CI workflow before selecting commands.
+
+### Contribution and security notes
+
+- Update screenshots and diagrams when the UI or system design changes.
+- Keep credentials, private keys, personal data, and local environment files out of version control.
+- Use placeholder-only examples and deployment-managed secrets.
+- Provide reproducible defect reports with expected and actual behavior.
+- Run relevant build, lint, and test checks before merging.
