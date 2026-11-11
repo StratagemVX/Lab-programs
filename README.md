@@ -1,46 +1,50 @@
-# Spring Boot & Spring Web Initializr Lab Programs — Programs 1 to 7
+# Spring Boot & Spring Initializr Lab Programs (`Lab-programs`) — Programs 1 to 7
 
-> The definitive educational reference suite containing Spring Boot enterprise web applications, dependency configurations, Spring Initializr setups, and executable zip archives for Programs 1 through 7.
+> Academic Java / Spring Boot coursework guide (`index.html`, `initializr.html`) paired with downloadable ZIP archives (`Programs/program1.zip` through `Programs/progrm7.zip`) and Spring Initializr setup diagrams.
 
-[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F.svg)](https://spring.io/projects/spring-boot)
-[![Maven](https://img.shields.io/badge/Maven-3.x-C71A36.svg)](https://maven.apache.org/)
-
----
-
-## Curriculum Overview
-
-This repository serves as the definitive reference suite for enterprise Java and Spring Boot academic laboratory coursework. It provides guided setups for Spring Initializr, project dependencies, and downloadable archives for Programs 1 through 7.
+[![HTML5](https://img.shields.io/badge/HTML5-Static%20Site-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Lab%20Archive-6DB33F.svg)](https://spring.io/projects/spring-boot)
 
 ---
 
-## Syllabus & Program Breakdown
+## Executive Overview
 
-- **Program 1 (`Programs/program1.zip`):** Spring Boot Application Bootstrap, Maven dependency management, and REST Controller fundamentals.
-- **Program 2 (`Programs/program2.zip`):** Spring MVC Model-View-Controller request routing and HTTP query parameter handling.
-- **Program 3 (`Programs/program3.zip`):** Form data binding, DTO validation annotations, and Thymeleaf template rendering.
-- **Program 4 (`Programs/progrm4.zip`):** RESTful Web Service Controller design with `@RestController` and JSON response payloads.
-- **Program 5 (`Programs/progrm5.zip`):** Spring Data JPA entity modeling, object-relational mapping, and repository interfaces.
-- **Program 6 (`Programs/progrm6.zip`):** Database CRUD operations with MySQL and in-memory H2 databases.
-- **Program 7 (`Programs/progrm7.zip`):** Dependency Injection, Inversion of Control (IoC) bean lifecycles, and component scanning.
+**`Lab-programs`** hosts a static web study guide explaining Spring Web and Spring Initializr concepts (`index.html`, `initializr.html`, `Spring.jpg`, `Spring initiazer.png`) alongside 7 compressed Spring Boot lab project archives under `Programs/`.
+
+> **Quality & CI Status (`main` vs. Open Draft PR #2 — `maintenance/repository-quality-improvements`):**
+> - **PR #2** cleans `.gitignore`, validates HTML/links/scripts via `tests/verify_site.mjs`, and adds `.github/workflows/quality.yml` (verified passing in CI).
 
 ---
 
-## Execution Instructions
+## Included Archives (`Programs/`)
 
-Open `index.html` in any web browser to view the curriculum guide, or download individual project zip archives from `Programs/` and run using Maven:
+- `Programs/program1.zip`
+- `Programs/program2.zip`
+- `Programs/program3.zip`
+- `Programs/progrm4.zip` *(archive filename in repo retains original spelling)*
+- `Programs/progrm5.zip`
+- `Programs/progrm6.zip`
+- `Programs/progrm7.zip`
+
+---
+
+## Usage & Verification
 
 ```bash
-unzip program1.zip
-cd program1
-./mvnw spring-boot:run
+git clone https://github.com/StratagemVX/Lab-programs.git
+cd Lab-programs
+
+# View the guide in a local browser
+python -m http.server 8000
+
+# Verify HTML & archive links (PR #2)
+node tests/verify_site.mjs
 ```
 
 ---
 
-## Contributor Attribution & Profile
+## Contributor Attribution
 
-- **Curator:** Chethan Kumar B S (`StratagemVX`)
-- **Institution:** Department of Computer Science & Engineering, MVJ College of Engineering
+- **Curator:** Chethan Kumar B S (`StratagemVX`) — *Archived duplicates `Lab-Project`, `lab-project19`, and `springbooterror` point here as canonical*
 - **GitHub:** [https://github.com/StratagemVX](https://github.com/StratagemVX)
 - **Portfolio:** [https://chethan-kumar-portfolio.vercel.app/](https://chethan-kumar-portfolio.vercel.app/)
